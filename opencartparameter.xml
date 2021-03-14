@@ -1,0 +1,10 @@
+<suite name="open cart">
+<test name="my test">
+<parameter name="email" value="dipalitailor123@gmail.com"/>
+<parameter name="password" value="Dipali123#"/>
+<classes>
+<class name="tests.Login_Test"/>
+
+</classes>
+</test>
+</suite>

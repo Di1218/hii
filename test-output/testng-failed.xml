@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [opencart]">
+  <parameter name="browser" value="firefox"/>
+  <test parallel="tests" name="GoogleChrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.Login_Test">
+        <methods>
+          <include name="crossBrowserTesting"/>
+        </methods>
+      </class> <!-- tests.Login_Test -->
+    </classes>
+  </test> <!-- GoogleChrome(failed) -->
+  <test parallel="tests" name="MozillaFirefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.Login_Test">
+        <methods>
+          <include name="crossBrowserTesting"/>
+        </methods>
+      </class> <!-- tests.Login_Test -->
+    </classes>
+  </test> <!-- MozillaFirefox(failed) -->
+</suite> <!-- Failed suite [opencart] -->

@@ -1,0 +1,18 @@
+<suite name="opencart" parallel="tests">
+
+<test name="GoogleChrome">
+<parameter name ="browser" value="chrome"/>
+<classes>
+<class name="tests.Login_Test"/>
+
+</classes>
+</test>
+
+<test name="MozillaFirefox">
+<parameter name ="browser" value="firefox"/>
+<classes>
+<class name="tests.Login_Test"/>
+
+</classes>
+</test>
+</suite>

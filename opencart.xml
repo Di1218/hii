@@ -1,0 +1,25 @@
+
+
+
+<suite name="opencart" parallel="tests">
+
+<listners>
+        <listner class-name="extentreport.ExtendReportOpenCartWeb"/>
+</listners>
+
+
+
+<test name="OpenCartWeb">
+
+
+
+
+
+<classes>
+<class name="tests.Login_Test"/>
+<class name="tests.Demo_Test"/>
+</classes>
+
+
+</test>
+</suite>

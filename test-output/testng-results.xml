@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-01T00:09:25Z" name="opencart" finished-at="2021-01-01T00:09:40Z" duration-ms="15109">
+    <groups>
+    </groups>
+    <test started-at="2021-01-01T00:09:25Z" name="MozillaFirefox" finished-at="2021-01-01T00:09:39Z" duration-ms="14024">
+      <class name="tests.Login_Test">
+        <test-method is-config="true" signature="objectSetup()[pri:0, instance:tests.Login_Test@65d6b83b]" started-at="2020-12-31T19:09:25Z" name="objectSetup" finished-at="2020-12-31T19:09:36Z" duration-ms="11238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectSetup -->
+        <test-method signature="crossBrowserTesting()[pri:0, instance:tests.Login_Test@65d6b83b]" started-at="2020-12-31T19:09:36Z" name="crossBrowserTesting" finished-at="2020-12-31T19:09:39Z" duration-ms="2769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserTesting -->
+      </class> <!-- tests.Login_Test -->
+    </test> <!-- MozillaFirefox -->
+    <test started-at="2021-01-01T00:09:25Z" name="GoogleChrome" finished-at="2021-01-01T00:09:40Z" duration-ms="15109">
+      <class name="tests.Login_Test">
+        <test-method is-config="true" signature="objectSetup()[pri:0, instance:tests.Login_Test@290d210d]" started-at="2020-12-31T19:09:25Z" name="objectSetup" finished-at="2020-12-31T19:09:37Z" duration-ms="11768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectSetup -->
+        <test-method signature="crossBrowserTesting()[pri:0, instance:tests.Login_Test@290d210d]" started-at="2020-12-31T19:09:37Z" name="crossBrowserTesting" finished-at="2020-12-31T19:09:40Z" duration-ms="3330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserTesting -->
+      </class> <!-- tests.Login_Test -->
+    </test> <!-- GoogleChrome -->
+  </suite> <!-- opencart -->
+</testng-results>
